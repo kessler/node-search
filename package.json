@@ -1,0 +1,32 @@
+{
+  "name": "@kessler/search",
+  "version": "1.0.0",
+  "description": "a search api and cli tool",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "search": "search-cli.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kessler/node-search.git"
+  },
+  "keywords": [
+    "google",
+    "search"
+  ],
+  "author": "Yaniv Kessler",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kessler/search-cli/issues"
+  },
+  "homepage": "https://github.com/kessler/search-cli#readme",
+  "dependencies": {
+    "@googleapis/customsearch": "^3.0.0",
+    "commander": "^12.0.0",
+    "hcat": "^2.1.4",
+    "rc": "^1.2.8"
+  }
+}
