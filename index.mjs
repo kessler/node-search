@@ -28,6 +28,11 @@ export default function createEngine(type, { apiKey, cx } = {}) {
           cx
         })
 
+        if (parseInt(data.searchInformation.totalResults) === 0) {
+          console.error(`no results found for "${query}"`)
+          return []
+        }
+
         results.push(...data.items)
         if (!data.queries.nextPage) {
           break
