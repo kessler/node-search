@@ -26,7 +26,6 @@
   "dependencies": {
     "@googleapis/customsearch": "^3.0.0",
     "commander": "^12.0.0",
-    "events": "^3.3.0",
     "hcat": "^2.1.4",
     "rc": "^1.2.8"
   }
